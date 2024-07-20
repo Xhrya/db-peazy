@@ -1,0 +1,93 @@
+@import url('https://fonts.google.com/specimen/DM+Sans');
+
+.phone-screen {
+  position: relative;
+  width: 375px; /* Adjust width as per your phone screen size */
+  height: 667px; /* Adjust height as per your phone screen size */
+  border: 16px solid #333;
+  border-radius: 40px;
+  margin: 50px auto;
+  overflow: hidden;
+  background-color: rgb(140, 173, 103); /* Light green color */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.phone-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Memories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(140, 173, 103); /* Light green color */
+  text-align: center;
+}
+
+.Memories h1 {
+  font-family: 'DM Sans'; /* Apply Ga Maamli font */
+  font-size: 40px; /* Adjust font size as needed */
+  font-weight: bold; /* Optionally adjust font weight */
+}
+
+.custom-card {
+  border: 1px solid #333;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  width: 280px; /* Adjusted width for mobile screen */
+  height: 150px; /* Adjusted height for mobile screen */
+  padding: 15px; /* Adds padding inside the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px; /* Rounded corners */
+  margin: 10px; /* Margin to separate cards */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.card-text {
+  word-wrap: break-word; /* Ensures text wraps within the card */
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Show ellipsis for text overflow */
+  max-height: 40px; /* Example maximum height for text */
+  font-size: 14px; /* Adjusted font size */
+}
+
+audio {
+  margin-top: 10px; /* Adds some space above the audio control */
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004085;
+}
